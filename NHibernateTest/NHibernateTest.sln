@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateTest", "NHibernateTest\NHibernateTest.csproj", "{DC8A4DEE-E202-40E2-AF69-412FB71A32AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateSpike", "NHibernateSpike\NHibernateSpike.csproj", "{5E3A3082-A375-4C68-953F-4ECE2F425DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DC8A4DEE-E202-40E2-AF69-412FB71A32AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8A4DEE-E202-40E2-AF69-412FB71A32AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8A4DEE-E202-40E2-AF69-412FB71A32AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3A3082-A375-4C68-953F-4ECE2F425DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3A3082-A375-4C68-953F-4ECE2F425DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3A3082-A375-4C68-953F-4ECE2F425DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3A3082-A375-4C68-953F-4ECE2F425DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
