@@ -34,12 +34,13 @@ namespace NHibernateSpike
                     var sue = new Employee { FirstName = "Sue", LastName = "Walkters" };
                     var bill = new Employee { FirstName = "Bill", LastName = "Tafts" };
                     var joan = new Employee { FirstName = "Joan", LastName = "Popes" };
+                    var dennis = new Employee { FirstName = "dennis", LastName = "liu" };
 
                     AddProductsToStore(barginBasin, potatoes, fish, milk, bread, cheese);
                     AddProductsToStore(superMart, bread, cheese, waffles);
 
                     AddEmployeesToStore(barginBasin, daisy, jack, sue);
-                    AddEmployeesToStore(superMart, bill, joan);
+                    AddEmployeesToStore(superMart, bill, joan,dennis);
 
                     //save
                     session.SaveOrUpdate(barginBasin);

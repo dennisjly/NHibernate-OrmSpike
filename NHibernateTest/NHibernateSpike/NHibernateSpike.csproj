@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Store.cs" />

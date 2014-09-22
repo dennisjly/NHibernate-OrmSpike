@@ -5,15 +5,28 @@ namespace NHibernateSpike.Entities
 {
     public class Store
     {
+        private IList<Product> _products;
+        private IList<Employee> _employees;
+
         public virtual int Id { get; protected set; }
         public virtual string Name { get; set; }
-        public virtual IList<Product> Products { get; set; }
-        public virtual IList<Employee> Staff { get; set; }
+
+        public virtual IList<Product> Products
+        {
+            get { return _products; }
+            set { _products = value; }
+        }
+
+        public virtual IList<Employee> Staff
+        {
+            get { return _employees; }
+            set { _employees = value; }
+        }
 
         public Store()
         {
-            Products = new List<Product>();
-            Staff = new List<Employee>();
+            _products = new List<Product>();
+            _employees = new List<Employee>();
         }
 
         public virtual void AddProduct(Product product)
@@ -27,6 +40,5 @@ namespace NHibernateSpike.Entities
             employee.Store = this;
             Staff.Add(employee);
         }
-
     }
 }
